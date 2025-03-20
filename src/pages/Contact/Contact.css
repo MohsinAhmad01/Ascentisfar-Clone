@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contact-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+  background-image: url("../../assets/building.jpg");
+  background-size: cover;
+  background-position: center;
+  padding: 50px;
+  box-sizing: border-box;
+}
+
+.Contact h2 {
+  text-align: end;
+  color: #8d8c8c;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 600px;
+  padding: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-top: 450px;
+  box-sizing: border-box;
+}
+
+.info p {
+  margin: 20px 0;
+  font-size: 22px;
+}
+
+.form-container {
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 650px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  background: transparent;
+}
+
+.flex-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+  background: transparent;
+}
+
+.form-group {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 180px;
+  background: transparent;
+}
+
+input,
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+textarea {
+  resize: none;
+}
+
+.submit-button {
+  padding: 10px;
+  background-color: #2568b0;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.submit-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+    height: auto;
+  }
+
+  .info-container {
+    margin-top: 20px;
+    max-width: 100%;
+  }
+
+  .form-container {
+    max-width: 100%;
+  }
+
+  .flex-form {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .form-group {
+    min-width: 100%;
+  }
+
+  input,
+  textarea {
+    font-size: 14px;
+  }
+
+  .submit-button {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-container {
+    padding: 15px;
+  }
+
+  .info-container {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  .form-container {
+    padding: 15px;
+  }
+
+  .info p {
+    font-size: 18px;
+  }
+
+  .submit-button {
+    font-size: 12px;
+  }
+}

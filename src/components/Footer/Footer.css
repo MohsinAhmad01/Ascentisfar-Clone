@@ -1,0 +1,29 @@
+.footer {
+  width: 100%;
+  background-color: #1162b9;
+  color: white;
+  padding: 10px;
+  position: relative;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-image {
+  width: 90px;
+  height: auto;
+}
+
+.footer-link {
+  color: white;
+  font-size: 8px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.footer-link:hover {
+  text-decoration: underline;
+}

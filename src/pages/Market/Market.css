@@ -1,0 +1,27 @@
+.Market {
+  background-color: white;
+}
+.center {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 25px;
+}
+.world {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.world img {
+  width: 70%;
+  height: auto;
+}
+
+.paragraphs p {
+  text-align: center;
+  font-size: 29px;
+  margin-bottom: 20px;
+  color: rgb(117, 109, 109);
+}
+.paragraphs .para2 {
+  font-size: 24px;
+}
